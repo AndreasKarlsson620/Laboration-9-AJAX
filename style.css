@@ -1,0 +1,33 @@
+body
+{
+	text-align: center;
+	background-color:black;
+	color:white;
+}
+/*input: title, author, modifyId, newTitle, newAuthor, deleteId*/
+#title, #author, #modifyId, #newTitle, #newAuthor, #deleteId
+{
+	background-color:black;
+	color:white;
+	border: 1px solid white;
+	padding: 2px;
+}
+/*button: addButton, viewButton, modifyButton, deleteButton*/
+#requestButton, #addButton, #viewButton, #modifyButton, #deleteButton
+{
+	background-color:black;
+	color:white;
+	border: 1px solid white;
+}
+#resultTable
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th
+{
+	border: 1px solid white;
+	text-align: left;
+	padding: 5px;
+}

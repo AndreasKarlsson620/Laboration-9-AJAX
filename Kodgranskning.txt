@@ -1,0 +1,13 @@
+Kodgranskning
+
+Namn: Oscar Törnqvist
+
+3 saker som är bra
+
+1. Visar om det senaste anropet till API:et lyckades eller misslyckades, på webbsidan.
+2. kan se vilka böcker som man har lagt in.
+3. kan begära en API-nyckel.
+
+1 sak som kan göras bättre
+
+Layout på webbsidan.

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>
+		forverkliga.se - Book catalog
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous">
+</script>
+<script src="script.js" charset="utf-8">
+</script>
+</head>
+<body>
+	<h1>
+		Book catalog
+	</h1>
+	<div id = "apiKey">
+	</div>
+	<button id="requestButton">Request API-key</button>
+	<h3>
+		Add book to database
+	</h3>
+	<div id="addResultDiv">
+	</div>
+	<input id="title" type="text" value="" placeholder="Title" maxlength="15"/>
+	<input id="author" type="text" value="" placeholder="Author" maxlength="15"/>
+	<button id="addButton">
+		Add book
+	</button>
+	<h3>
+		View books in database
+	</h3>
+	<div id="viewResultDiv">
+	</div>
+
+	<table id="resultTable">
+	</table>
+	<button id="viewButton">
+		View books
+	</button>
+	<h3>
+		Modify book in database
+	</h3>
+	<div id="modifyResultDiv">
+	</div>
+	<input id="modifyId" type="text" value="" placeholder="Id" maxlength="15"/>
+	<input id="newTitle" type="text" value="" placeholder="New title" maxlength="15"/>
+	<input id="newAuthor" type="text" value="" placeholder="New author" maxlength="15"/>
+	<button id="modifyButton">
+		Modify book
+	</button>
+	<h3>
+		Delete book
+	</h3>
+	<div id="deleteResultDiv">
+	</div>
+	<input id="deleteId" type="text" value="" placeholder="Id" maxlength="15"/>
+	<button id="deleteButton">
+		Delete book
+	</button>
+</body>
+</html>
