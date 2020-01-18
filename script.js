@@ -38,7 +38,7 @@ $(document).ready(() => {
 	let viewButton = $('#viewButton');
 	viewButton.on('click', event => {
 		viewButton.disabled = "disabled";
-		const url = 'http://forverkliga.se/JavaScript/api/crud.php?op=select&key=' + key;
+		const url = 'https://forverkliga.se/JavaScript/api/crud.php?op=select&key=' + key;
 		const settings =
 		{
 			method: 'GET'
@@ -51,7 +51,7 @@ $(document).ready(() => {
 	let modifyButton = $('#modifyButton');
 	modifyButton.on('click', event => {
 		modifyButton.disabled = "disabled";
-		const url = 'http://forverkliga.se/JavaScript/api/crud.php?op=update&key=' + key + '&id=' + id + '&title=' + title + '&author=' + author;
+		const url = 'https://forverkliga.se/JavaScript/api/crud.php?op=update&key=' + key + '&id=' + id + '&title=' + title + '&author=' + author;
 		const settings =
 		{
 			method: 'GET'
@@ -64,7 +64,7 @@ $(document).ready(() => {
 	let deleteButton = $('#deleteButton');
 	deleteButton.on('click', event => {
 		deleteButton.disabled = "disabled";
-		const url = 'http://forverkliga.se/JavaScript/api/crud.php?key=' + key + '&op=delete&id=' + id;
+		const url = 'https://forverkliga.se/JavaScript/api/crud.php?key=' + key + '&op=delete&id=' + id;
 		const settings =
 		{
 			method: 'GET'
